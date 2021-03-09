@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".login_fragments.pickType">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:id="@+id/btnBoard"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center|center_vertical"
+        android:layout_weight="1"
+        android:alpha="0.8"
+        android:background="@drawable/btn1"
+        android:text="Board Member"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:backgroundTintMode="add"
+        app:cornerRadius="30sp" />
+
+    <Button
+        android:id="@+id/btnTennant"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center|center_horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:alpha="0.8"
+        android:background="@drawable/btn1"
+        android:text="Tennant"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:backgroundTintMode="add"
+        app:cornerRadius="30sp" />
+
+</LinearLayout>

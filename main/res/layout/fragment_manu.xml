@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/manu1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".main_fragments.Menu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/allPayments"
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:layout_gravity="center"
+            android:layout_marginStart="5sp"
+            android:layout_marginLeft="5sp"
+            android:layout_marginTop="5sp"
+            android:layout_marginEnd="5sp"
+            android:layout_marginRight="5sp"
+            android:layout_weight="1"
+            android:alpha="0.8"
+            android:background="@drawable/btn1"
+            android:text="show all payments"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:backgroundTintMode="add" />
+
+        <Button
+            android:id="@+id/singlePayment"
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:layout_gravity="center"
+            android:layout_marginStart="5sp"
+            android:layout_marginLeft="5sp"
+            android:layout_marginTop="5sp"
+            android:layout_marginEnd="5sp"
+            android:layout_marginRight="5sp"
+            android:layout_weight="1"
+            android:alpha="0.8"
+            android:background="@drawable/btn1"
+            android:text="get single tennant payment"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:backgroundTintMode="add" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/enterPay"
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:layout_gravity="center"
+            android:layout_marginStart="5sp"
+            android:layout_marginLeft="5sp"
+            android:layout_marginTop="5sp"
+            android:layout_marginEnd="5sp"
+            android:layout_marginRight="5sp"
+            android:layout_weight="1"
+            android:alpha="0.8"
+            android:background="@drawable/btn1"
+            android:text="update payment"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:backgroundTintMode="add" />
+
+        <Button
+            android:id="@+id/btnSummry"
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:layout_gravity="center"
+            android:layout_marginStart="5sp"
+            android:layout_marginLeft="5sp"
+            android:layout_marginTop="5sp"
+            android:layout_marginEnd="5sp"
+            android:layout_marginRight="5sp"
+            android:layout_weight="1"
+            android:alpha="0.8"
+            android:background="@drawable/btn1"
+            android:text="monthly summery"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:backgroundTintMode="add" />
+    </LinearLayout>
+</LinearLayout>
